@@ -1,0 +1,397 @@
+body {
+    margin: 0px;
+    font-family: Raleway, Helvetica, Arial, sans-serif;
+    }
+
+/* NAV */    
+#nav {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    height: 110px;
+
+    position: fixed;
+    /*overflow: auto;*/
+    background-color:rgb(17, 28, 42);
+    }
+
+#nav ul {
+    list-style: none;
+    font-size: 15px;
+    font-weight:bold;
+    margin: 62px 0 0 0;
+    padding: 0;
+    text-align: center;
+    }
+#nav ul li {
+    display: inline-block;
+    }
+/* #nav h1 {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 5px 0px;
+    text-align: center;
+    color: white;
+    }
+#nav h2 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 18px 0px;
+    font-size: 19px;
+    text-align: center;
+    color: white;
+    } */
+#nav img {
+    border: 2px solid rgb(4,177,229);
+    float: left;
+    margin: 15px;
+    padding: 3px;
+    width: 170px;
+    border-radius: 50%;
+    position: relative;
+    }
+#nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding : 15px 20px;
+    }
+.item-contact {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    float: right;
+    }
+#nav ul li a:hover {
+    background-color: rgb(171,171,171);
+    }
+/* FIN DEL NAV*/
+
+/* FONDO DEL NAV*/
+#fondo {
+    overflow: auto;
+    height: 110px;
+}
+/* FIN DEL FONDO DEL NAV*/
+
+/* ABOUTME*/
+#aboutme {
+    
+    background-image:  url("../img/duesseldorf3.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 100% auto;
+    overflow: auto;
+}
+.titel{
+    margin: 50px auto 0px auto;
+    justify-content: center;
+    /*overflow: auto;*/
+    
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:rgb(17,28,42);
+    }
+h3 {
+    margin: 25px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    }
+#aboutme .content {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    background-color:white;
+    width: 70%;
+    height: 100%;
+    text-decoration: none;
+}
+#aboutme .content img {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    float: left;
+    width: 224px;
+    margin: 40px  
+}
+p {
+    font-size: 14px;
+    padding: 40px;
+}
+#aboutme .personalinformation{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin: 0px auto 50px auto;
+    background-color:white;
+    width: 70%;
+    height: 100%;
+    text-decoration: none;
+}
+#aboutme .personalinformation h4{
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+    padding: 50px 0px 0px 0px;
+}
+#aboutme .personalinformation img {
+    width: 50px;
+    padding: 0 15px 0 0;
+    float: left;
+}
+#aboutme .personalinformation p {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+.personalinformation-content {
+    display: table;
+    margin: 20px 0 0 70px;
+    justify-content: center;
+}
+.name {
+    float:left;
+    width: 300px;
+    margin: 25px 0;
+}
+.email {
+    float:left;
+    width: 300px;
+    margin: 25px 0;
+}
+.phone {
+    float:left;
+    width: 300px;
+    margin: 25px 0;
+}
+.birth {
+    float:left;
+    width: 300px;
+    margin: 25px 0;
+}
+.address {
+    float:left;
+    width: 300px;
+    margin: 25px 0;
+}
+.nationality {
+    float:left;
+    width: 300px;
+    margin: 25px 0;
+}
+
+/* EDUCATION */
+
+#education {
+    background-color: rgb(219,219,219,219);
+    overflow: auto;
+}
+#education .content {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    background-color:white;
+    width: 70%;
+    height: 100%;
+    text-decoration: none;
+}
+#education h4{
+    font-size: 20px;
+    padding: 40px 0 20px 0;
+    margin: 0px 40px 0 40px;
+}
+#education .content h5{
+    font-size: 14px;
+    padding: 0 0 20px 0;
+    margin: 0px 80px;
+}
+#education .content p{
+    font-size: 14px;
+    padding: 0;
+    margin: 0px 120px;
+}
+/* END EDUCATION*/
+
+/* EXPERIENCE */
+
+#experience{
+
+
+    background-image:  url("../img/duesseldorf2.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 100% auto;
+    overflow: auto;
+}
+#experience .content {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    background-color:white;
+    width: 70%;
+    height: 100%;
+    text-decoration: none;
+}
+#experience .content h5{
+    font-size: 14px;
+    padding: 0 0 20px 0;
+    margin: 0px 80px;
+}
+#experience .content p{
+    font-size: 14px;
+    padding: 0;
+    margin: 0px 120px;
+}
+/* END EXPERIENCE */
+
+/* SKILL */
+#skill {
+    background-color: rgb(219,219,219,219);
+    overflow: auto;
+}
+#skill .content {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    background-color:white;
+    width: 70%;
+    height: 100%;
+    text-decoration: none;
+}
+#skill .content h4{
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+    padding: 50px 0px;
+}
+.img1 img {
+    width: 82px;
+    display: flex;
+    margin: auto;
+    padding: 20px 0;   
+}
+h6{
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0px;
+}
+.img2 img {
+    width: 132px;
+    display: flex;
+    margin: auto; 
+    padding: 20px 0;
+}
+.photoshop{
+    width: 200px;
+    float: left;
+}
+.ilustrator{
+    float: left;
+    width: 200px;
+
+}
+.premier{
+    width: 200px;
+
+    float: left;
+}
+.audition{
+    width: 200px;
+
+    float: left;
+}
+.html{
+    width: 200px;
+    float: left;
+}
+.css {
+    width: 200px;
+    float: left;
+}
+.adobe {
+    display: table;
+    margin: auto;
+    justify-content: center;
+}
+.webdesign {
+    display: table;
+    margin: auto;
+    justify-content: center;
+    padding: 0 0 50px 0;
+}
+/* END SKILL*/
+
+/* LANGUAGES */
+#languages {
+    background-image:  url("../img/duesseldorf1.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 100% auto;
+    overflow: auto;
+}
+#languages .content {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    background-color:white;
+    width: 70%;
+    height: 100%;
+    text-decoration: none;
+}
+.spanish{
+    width: 200px;
+    float: left;
+}
+.german{
+    float: left;
+    width: 200px;
+}
+.italian{
+    width: 200px;
+    float: left;
+}
+.english{
+    width: 200px;
+    float: left;
+}
+.idiomas {
+    display: table;
+    margin: auto;
+    justify-content: center;
+    padding : 50px 0;
+}
+/* END LANGUAGES */
+
+/* CONTACT */
+#contact {
+    background-color: rgb(219,219,219);
+    overflow: auto;
+}
+.formulario p {
+    font-size: 16px;
+    padding: 10px 0;
+}
+.formulario {
+    display: table;
+    margin: 20px auto 25px auto;
+    justify-content: center;
+}
+#social-networks {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    height: 100%;
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    background-color:rgb(17, 28, 42);
+    }
+#social-networks ul {
+
+    list-style: none;
+    display: table;
+    margin: auto;
+    justify-content: right;
+    padding: 0;
+    padding: 20px 0;
+}
+#social-networks li img {
+    display: flex;
+    margin: auto;
+    width: 40px;
+}
+#social-networks li {
+    width: 80px;
+    display: inline-block;
+}
